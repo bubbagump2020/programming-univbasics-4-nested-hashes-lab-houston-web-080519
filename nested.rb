@@ -105,8 +105,12 @@ def changing_alan
      }
      #change what Alan Kay is :known_for to the value of the alans_new_info variable. 
      alans_new_info = "GUI"
+<<<<<<< HEAD
      programmer_hash[:alan_kay][:known_for] = alans_new_info
      programmer_hash
+=======
+     programmer_hash[:known_for] = "#{alans_new_info}"
+>>>>>>> 102a572982d3318c635134f3f5a2af9d483d645c
      
 end
 
@@ -126,7 +130,10 @@ def adding_to_dennis
           :languages => ["C"]
         }
      }
+<<<<<<< HEAD
      
   programmer_hash[:dennis_ritchie][:languages][1] = "Assembly"
   programmer_hash
+=======
+>>>>>>> 102a572982d3318c635134f3f5a2af9d483d645c
 end
